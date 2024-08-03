@@ -72,7 +72,6 @@ function executeCode() {
       console.log('Popup closed.');
     }
   }
-
   function checkClaimButton() {
     const claimButton = document.querySelector(claimButtonSelector);
     if (claimButton && claimButton.textContent.trim() !== 'Explore Now') {
